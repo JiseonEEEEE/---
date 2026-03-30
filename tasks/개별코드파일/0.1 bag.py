@@ -16,7 +16,7 @@ def remove(bag, e):
 def count(bag): 
     return len(bag)
 
-# 특정 원소가 몇 개 있는지 세는 함수
+# 특정 원소가 몇 개 있는지 세는 함수 c= count
 def numOf(bag, e):
     c = 0
     for i in range(len(bag)):
